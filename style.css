@@ -39,15 +39,15 @@ body {
   display: inline-block;
   border-radius: 0.8rem;
   border: none;
-  background: rgb(34, 193, 195);
+  background: rgb(182, 174, 156);
   background: linear-gradient(
     0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
+    rgba(182, 174, 156, 1) 0%,
+    rgba(105, 229, 17, 1) 100%
   );
   color: white;
   font-weight: bold;
-  pointer: click;
+  cursor: pointer;
   margin-top: 0.75rem;
 }
 
@@ -57,10 +57,13 @@ body {
   border: 2px solid #efefef;
   border-radius: 0.8rem;
   padding: 0.6rem;
+  font-size: 1.2rem;
 }
 .author {
   margin-top: 0.3rem;
+  width: 100%;
 }
 .text-area {
   line-height: 1.2rem;
+  width: 100%;
 }
